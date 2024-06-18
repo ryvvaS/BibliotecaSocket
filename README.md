@@ -28,6 +28,31 @@ A classe `DAOLivro` é uma implementação do projeto com o objetivo de ler e es
 - **lerArquivoJson**: Lê um arquivo JSON de um caminho especificado e desserializa seu conteúdo em um objeto do tipo fornecido.
 - **escreverArquivoJson**: Serializa um objeto em JSON e escreve o conteúdo em um arquivo no caminho especificado.
   
+# Classe Livro
+
+Uma classe Java simples para representar um livro com atributos como autor, título, número de exemplares e gênero.
+
+## Visão Geral
+
+A classe `Livro` foi projetada para representar um livro com quatro atributos principais:
+- `autor`: O autor do livro.
+- `titulo`: O título do livro.
+- `exemplares`: O número de exemplares disponíveis.
+- `genero`: O gênero do livro.
+
+Esta classe fornece um construtor para inicializar esses atributos, juntamente com métodos getter e setter para cada atributo. Além disso, sobrescreve o método `toString` para fornecer uma representação formatada dos detalhes do livro.
+
+## Uso
+
+Para usar esta classe, você pode criar uma instância de `Livro` e definir seus atributos, seja através do construtor ou utilizando os métodos setter fornecidos.
+
+### Exemplo de Uso
+
+- Criar um objeto `Livro`.
+- Definir os atributos `autor`, `titulo`, `exemplares` e `genero`.
+- Imprimir os detalhes do livro no console.
+
+
 # Integrantes 
 - Guilherme dos Santos Mota (UC22101328)
 - Matheus Da Cruz Santos (UC21200334)
