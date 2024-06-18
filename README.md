@@ -28,4 +28,8 @@ A classe `DAOLivro` é uma implementação do projeto com o objetivo de ler e es
 - **lerArquivoJson**: Lê um arquivo JSON de um caminho especificado e desserializa seu conteúdo em um objeto do tipo fornecido.
 - **escreverArquivoJson**: Serializa um objeto em JSON e escreve o conteúdo em um arquivo no caminho especificado.
   
-  
+# Integrantes 
+- Guilherme dos Santos Mota (UC22101328)
+- Matheus Da Cruz Santos (UC21200334)
+- Ryann Vitório Vasconcelos (UC21200006)
+- Gabriel Felipe Rezende de Jesus (UC22101458)
