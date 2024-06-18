@@ -52,9 +52,21 @@ Para usar esta classe, você pode criar uma instância de `Livro` e definir seus
 - Definir os atributos `autor`, `titulo`, `exemplares` e `genero`.
 - Imprimir os detalhes do livro no console.
 
+# Classe ColecaoLivros
+
+A classe ColecaoLivros gerencia uma coleção de livros. Ela oferece funcionalidades para adicionar livros, atualizar o número de cópias disponíveis e exibir a coleção de livros como uma string. 
+
+## Funcionalidades
+
+- getLivros: Retorna a lista de livros.
+- adicionarLivro: Adiciona um livro à coleção e atualiza o arquivo JSON.
+- atualizarCopiasLivro: Atualiza o número de cópias de um livro específico e o arquivo JSON.
+- livrosString: Retorna uma representação em string dos livros.
+- toString: sobreescreve o metódo toString e retorna uma representação detalhada da coleção de livros.
 
 # Integrantes 
 - Guilherme dos Santos Mota (UC22101328)
 - Matheus Da Cruz Santos (UC21200334)
 - Ryann Vitório Vasconcelos (UC21200006)
 - Gabriel Felipe Rezende de Jesus (UC22101458)
+- Eduardo Henrique Moraes Gama (UC22100642)
