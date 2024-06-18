@@ -70,3 +70,22 @@ A classe ColecaoLivros gerencia uma coleção de livros. Ela oferece funcionalid
 - Ryann Vitório Vasconcelos (UC21200006)
 - Gabriel Felipe Rezende de Jesus (UC22101458)
 - Eduardo Henrique Moraes Gama (UC22100642)
+
+## Manipulador Cliente
+
+Este código implementa a classe `ManipuladorCliente`, responsável por lidar com as solicitações de clientes conectados a um servidor de biblioteca.
+
+## Funcionalidades
+- **Listar livros:** Retorna a lista de todos os livros disponíveis.
+- **Cadastrar livro:** Adiciona um novo livro à coleção.
+- **Alugar livro:** Permite alugar um livro disponível.
+- **Devolver livro:** Permite devolver um livro alugado.
+
+## Detalhes de Implementação
+- A classe é executada em uma thread separada para cada cliente.
+- Processa solicitações recebidas via socket, lendo os comandos e enviando as respostas apropriadas.
+- Utiliza a classe `ColecaoLivros` para manipular a coleção de livros armazenada em um arquivo JSON.
+
+## Instruções
+- Construa um objeto `ManipuladorCliente` passando um `Socket`, um objeto `ColecaoLivros` e o caminho do arquivo JSON contendo a coleção de livros.
+- Chame o método `run` para começar a processar as solicitações do cliente.
